@@ -1,3 +1,4 @@
+// Happy-path test for successful user registration
 import { test, expect } from '@playwright/test';
 
 test('User can register successfully', async ({ page }) => {
